@@ -46,11 +46,13 @@ body {
 .nav-buttons {
     display: flex;
     align-items: center;
+    margin-left: 20px;
 }
 
 .ingresar {
     text-decoration: none;
     color: #4a836c;
+    font-weight: 800;
     font-size: 16px;
     margin-right: 10px;
     transition: color 0.3s;
@@ -64,9 +66,11 @@ body {
     background-color: #4a836c;
     color: white;
     border: none;
+    border-radius: 5px; /* Bordes redondeados */
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 600;
     transition: background-color 0.3s;
 }
 
@@ -130,3 +134,41 @@ body {
 
 
 
+/*cards*/
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a836c;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.5;
+}
