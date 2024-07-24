@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rise Capital</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="/assets/img/logo.png" alt="Logo">
+            <img src="./assets/img/logo.png" alt="Logo">
         </div>
         <ul class="nav-links">
             <li><a href="#">Inicio</a></li>
@@ -24,38 +27,100 @@
             <button class="crear-cuenta">Crear cuenta</button>
         </div>
     </nav>
-    <div class="container">
-        <div class="text">
-            <h1>SIMPLIFICAMOS</h1>
-            <h2>EL PROCESO DE TRADING</h2>
+    <main>
+        <div class="container">
+            <div class="text">
+                <h1>SIMPLIFICAMOS</h1>
+                <h2>EL PROCESO DE TRADING</h2>
+            </div>
+            <div class="buttons">
+                <div class="button">ACCESIBLE</div>
+                <div class="button">TRANSPARENTE</div>
+                <div class="button">RAPIDO</div>
+            </div>
         </div>
-        <div class="buttons">
-            <div class="button">ACCESIBLE</div>
-            <div class="button">TRANSPARENTE</div>
-            <div class="button">RAPIDO</div>
+        <div class="cards-container">
+            <div class="card">
+                <img src="assets/img/instrumento.png" alt="Instrumento">
+                <h3>Instrumento</h3>
+                <p>El EUR/USD es popular entre traders por su alta liquidez y volatilidad. El algoritmo de Rise Capital
+                    se especializa en este par, maximizando oportunidades para novatos y expertos. Las fluctuaciones del
+                    EUR/USD, afectadas por factores económicos y políticos globales, son gestionadas eficazmente por
+                    nuestro algoritmo, ofreciendo un valor añadido a nuestros clientes.</p>
+            </div>
+            <div class="card">
+                <img src="assets/img/transparencia.png" alt="Transparencia Fundamental">
+                <h3>Transparencia Fundamental</h3>
+                <p>En Rise Capital, cada cliente puede ver en tiempo real todas las operaciones de nuestro algoritmo en
+                    cuentas de Metatrader 5. Esto permite a los inversores seguir el desempeño de sus inversiones. La
+                    transparencia es fundamental porque fomenta una relación de confianza y asegura que nuestros
+                    clientes siempre estén informados y en control de sus fondos.</p>
+            </div>
+            <div class="card">
+                <img src="assets/img/velocidad.png" alt="Ejecución Rápida">
+                <h3>Ejecución Rápida</h3>
+                <p>Garantizamos una ejecución rápida y eficiente gracias a nuestro algoritmo alojado en un VPS en Nueva
+                    York, que ofrece baja latencia y una velocidad de procesamiento inigualable.Todas las operaciones se
+                    ejecutan sin retrasos en segundos o menos, asegurando máxima precisión y velocidad, ofreciendo a
+                    nuestros clientes una ventaja competitiva en el mercado.</p>
+            </div>
+            <div class="card">
+                <img src="assets/img/monitorEquidad.png" alt="Monitores de Equidad">
+                <h3>Monitores de Equidad</h3>
+                <p>Utilizamos un avanzado sistema de monitoreo de equidad que protege el capital de nuestros clientes
+                    evitando automáticamente la apertura de nuevas operaciones en caso de un riesgo alto. Esto garantiza
+                    una gestión de riesgos efectiva, permitiendo invertir con confianza sabiendo que sus fondos están
+                    resguardados contra fluctuaciones inesperadas del mercado.</p>
+            </div>
         </div>
-    </div>
-    <div class="cards-container">
-        <div class="card">
-            <img src="assets/img/instrumento.png" alt="Instrumento">
-            <h3>Instrumento</h3>
-            <p>El algoritmo de Rise Capital se centra en el EUR/USD, aprovechando su alta liquidez y volatilidad para maximizar ganancias tanto para traders novatos como experimentados. Esto reduce drásticamente las fluctuaciones económicas y políticas, ofreciendo un valor significativo a nuestros clientes.</p>
+    </main>
+    <hr>
+    <footer>
+        <div>
+            <h3>Quiénes somos</h3>
         </div>
-        <div class="card">
-            <img src="assets/img/transparencia.png" alt="Transparencia Fundamental">
-            <h3>Transparencia Fundamental</h3>
-            <p>Cada cliente puede ver en tiempo real todas las operaciones de nuestro algoritmo en cuentas de Metatrader 5. Esto permite a los inversores seguir el desempeño de sus inversiones. Para nosotros, la transparencia es fundamental porque fomenta una relación de confianza y asegura que nuestros clientes siempre estén informados.</p>
+        <div>
+            <h3>Soporte</h3>
         </div>
-        <div class="card">
-            <img src="assets/img/velocidad.png" alt="Ejecución Rápida">
-            <h3>Ejecución Rápida</h3>
-            <p>Garantizamos una ejecución rápida y eficiente gracias a nuestro algoritmo alojado en un VPS en Nueva York, que ofrece baja latencia y una velocidad de procesamiento inigualable.Todas las operaciones se ejecutan sin retrasos en segundos o menos, asegurando máxima precisión y velocidad.</p>
+        <div>
+            <h3>Términos y condiciones</h3>
         </div>
-        <div class="card">
-            <img src="assets/img/monitorEquidad.png" alt="Monitores de Equidad">
-            <h3>Monitores de Equidad</h3>
-            <p>Utilizamos un avanzado sistema de monitoreo de equidad que protege el capital de nuestros clientes evitando automáticamente la apertura de nuevas operaciones en caso de un riesgo alto. Esto garantiza una gestión de riesgos efectiva, permitiendo invertir con confianza sabiendo que sus fondos están resguardados contra fluctuaciones inesperadas del mercado.</p>
+        <div>
+            <h3>Encontranos en</h3>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
         </div>
-    </div>
+
+        <hr>
+    </footer>
+    <spam>
+        <div class="politica">
+            <p> Política | Rise Capital no proporciona asesoramiento financiero y nada debe interpretarse como tal.
+                Tampoco es una
+                recomendación para invertir. En caso de tener alguna duda, deberá buscar asesoramiento financiero
+                independiente. Por otro lado, no es un agente financiero en los términos previstos en la Ley de Mercado
+                de Capitales N° 26.831, ni tampoco un “fondo de inversión directa” en los términos de las Normas de la
+                Comisión Nacional de Valores (la “CNV”). Por las características propias y considerando que no se
+                ofrecen valores negociables, no ha sido solicitada autorización a la CNV. Asimismo, no asegura
+                rendimientos ni rentabilidad de ningún tipo ni cuantía, ni la devolución del capital invertido, salvo lo
+                ejecutado por la configuración de protección de equidad. Los cálculos de rentabilidad estimada, así como
+                los plazos de inversión, son únicamente estimaciones realizadas en base a estudios de mercado internos.
+                Las inversiones están sujetas a las fluctuaciones de precios y riesgos inherentes al mercado de divisas.
+                Los potenciales inversores deberán realizar su propio análisis de riesgo previo a la inversión.
+                Cualquier decisión adoptada por los inversores constituirá una decisión informada e independiente de los
+                mismos. Los usuarios deberán realizar las comprobaciones, estudios y análisis que consideren pertinentes
+                para adoptar la decisión, de la que Rise Capital no responderá en ningún caso. El valor de sus
+                inversiones puede subir o bajar. La rentabilidad mostrada (u objetivos) no son necesariamente
+                indicativos de la verdadera rentabilidad futura. Los negocios no son objeto de autorización ni de
+                supervisión por algún ente regulador y deben regirse por el presente.</p>
+        </div>
+    </spam>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+h"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"></script>
 </body>
+
 </html>

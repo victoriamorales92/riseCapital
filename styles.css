@@ -66,7 +66,8 @@ body {
     background-color: #4a836c;
     color: white;
     border: none;
-    border-radius: 5px; /* Bordes redondeados */
+    border-radius: 5px;
+    /* Bordes redondeados */
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
@@ -75,13 +76,13 @@ body {
 }
 
 .nav-buttons button:hover {
-    background: #1ce996 ;
+    background: #1ce996;
 }
 
 /*imagen*/
 
 .container {
-    background: linear-gradient(90deg, #4a846c, #47c2ac);
+    background: linear-gradient(90deg, #4a846c, #48cab2);
     padding: 20px;
     color: white;
     display: flex;
@@ -98,14 +99,16 @@ body {
 .text h1 {
     font-size: 80px;
     font-weight: bolder;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade una sombra a las letras */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Añade una sombra a las letras */
 }
 
 .text h2 {
     margin: 0;
     font-size: 70px;
     font-weight: 400;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade una sombra a las letras */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Añade una sombra a las letras */
 }
 
 .buttons {
@@ -116,25 +119,32 @@ body {
 
 .button {
     background: #1ce996;
-    padding: 20px 40px; /* Aumenta el tamaño de los botones */
-    margin-bottom: 20px; /* Añade espacio entre los botones */
+    padding: 20px 40px;
+    /* Aumenta el tamaño de los botones */
+    margin-bottom: 20px;
+    /* Añade espacio entre los botones */
     text-align: center;
     border-radius: 5px;
     color: #e7f3e8;
     font-weight: bold;
-    font-size: 25px; /* Aumenta el tamaño del texto */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade una sombra a los botones */
-    transition: all 0.3s ease; /* Transición suave para el hover */
+    font-size: 25px;
+    /* Aumenta el tamaño del texto */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Añade una sombra a los botones */
+    transition: all 0.3s ease;
+    /* Transición suave para el hover */
 }
 
 .button:hover {
-    transform: scale(1.05); /* Escala ligeramente el botón al pasar el mouse */
+    transform: scale(1.05);
+    /* Escala ligeramente el botón al pasar el mouse */
 }
 
 
 
 
 /*cards*/
+
 .cards-container {
     display: flex;
     justify-content: space-around;
@@ -152,6 +162,15 @@ body {
     margin: 10px;
     padding: 20px;
     text-align: center;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    /* Añadido para la transición suave */
+}
+
+.card:hover {
+    border-color: #4a836c;
+    /* Cambia el color del borde al pasar el mouse */
+    box-shadow: 0 0 10px 4px rgba(58, 175, 133, 0.5);
+    /* Efecto de iluminación en los bordes */
 }
 
 .card img {
@@ -171,4 +190,64 @@ body {
     font-weight: 400;
     color: #666;
     line-height: 1.5;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+footer div {
+    flex:auto;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: none;
+    color: #4a836c;
+    font-weight:500;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.bi {
+    font-size: 24px;
+    margin: 0 5px;
+    color: #0c0c0c;
+}
+
+.bi:hover {
+    color: #007bff;
+}
+
+.bi-facebook:hover {
+    color: #3b5998;
+}
+
+.bi-instagram:hover {
+    color: #c13584;
+}
+.bi-whatsapp:hover {
+    color: #22eb55;
+}
+.politica {
+    width: 100%;
+    padding: 5px;
+}
+
+.politica p {
+    font-size: 10px;
+    width: 100%;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: -25px ;
 }
